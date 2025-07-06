@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section .btn {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.bg-light {
+  background-color: #f4f6f9 !important;
+}
+
+.carousel-item {
+  padding: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 50%;
+}
+
+form input, form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease-in-out;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.bg-warning-subtle {
+  background-color: #fff3cd !important;
+}
+
+section h2 {
+  font-weight: bold;
+  color: #d39e00;
+}
+
+footer {
+  font-size: 14px;
+  background-color: #212529;
+  color: #ccc;
+}
